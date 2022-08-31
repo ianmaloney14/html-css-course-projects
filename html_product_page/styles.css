@@ -1,0 +1,50 @@
+body {
+  border: black solid 3px;
+  font-family: sans-serif;
+}
+
+header {
+  background-color: #f4f4f4;
+}
+
+header h1 {
+  text-align: center;
+  font-weight: none;
+  font-size: 26px;
+}
+
+article h3 {
+  text-transform: uppercase;
+}
+
+a {
+  color: rgb(104, 103, 103);
+  text-decoration: underline;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+.add-cart {
+  color: white;
+  background-color: black;
+  font-size: 20px;
+  text-transform: uppercase;
+  cursor: pointer;
+}
+
+.add-cart:hover {
+  background-color: white;
+  color: black;
+}
+
+.price {
+  font-size: 26px;
+}
+
+.shipping {
+  color: rgb(104, 103, 103);
+  text-transform: uppercase;
+  font-weight: bold;
+}
