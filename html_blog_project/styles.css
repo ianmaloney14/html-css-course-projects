@@ -1,9 +1,9 @@
-h1,
-h2,
-h3,
-h4,
-p,
-li {
+/* * {
+  margin: 5px;
+  padding: 5px;
+} */
+
+body {
   font-family: sans-serif;
   color: #444444;
 }
@@ -79,10 +79,6 @@ aside {
   border-bottom: 3px solid #1098ad;
 }
 
-body {
-  /* background-color: ; */
-}
-
 li:first-child {
   font-weight: bold;
 }
@@ -119,3 +115,7 @@ a:hover {
   background-color: black;
   font-style: italic;
 } */
+
+nav {
+  font-size: 18px;
+}
