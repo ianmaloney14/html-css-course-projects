@@ -1,6 +1,17 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
 body {
-  border: black solid 3px;
   font-family: sans-serif;
+  line-height: 1.4;
+}
+
+.container {
+  border: black solid 3px;
+  width: 800px;
+  margin: 50px auto;
 }
 
 header {
@@ -11,10 +22,21 @@ header h1 {
   text-align: center;
   font-weight: none;
   font-size: 26px;
+  /* margin: 0; */
+  padding: 15px;
 }
 
 article h3 {
   text-transform: uppercase;
+  padding: 15px 0;
+}
+
+ul {
+  padding-left: 20px;
+}
+
+li {
+  padding-bottom: 10px;
 }
 
 a {
@@ -29,14 +51,19 @@ a:hover {
 .add-cart {
   color: white;
   background-color: black;
+  border: none;
   font-size: 20px;
   text-transform: uppercase;
   cursor: pointer;
+  width: 100%;
+  padding: 15px;
 }
 
 .add-cart:hover {
   background-color: white;
   color: black;
+  width: 100%;
+  border-top: 3px solid black;
 }
 
 .price {
@@ -47,4 +74,9 @@ a:hover {
   color: rgb(104, 103, 103);
   text-transform: uppercase;
   font-weight: bold;
+  padding-bottom: 10px;
+}
+
+.desc {
+  padding: 10px 0;
 }
