@@ -165,9 +165,3 @@ body {
   /* width: 243px; */
   flex: 1;
 }
-
-/* CSS GRID LAYOUT */
-.article {
-  display: grid;
-  grid-template-columns: ;
-}
